@@ -5,7 +5,6 @@ import "./App.css";
 import CelebrationPage from "./components/CelebrationPage";
 import Countdown from "./components/Countdown";
 import Effects from "./components/Effects";
-import Gallery from "./components/Gallery";
 import Hearts from "./components/Hearts";
 import MessageCard from "./components/MessageCard";
 import MusicPlayer from "./components/MusicPlayer";
@@ -154,27 +153,10 @@ function App() {
           ← Back
         </button>
         <MessageCard isActive={currentPage === 3} />
-        <button className="page-nav-btn" onClick={() => goToPage(4)}>
-          📸 View Our Memories
-        </button>
+        
       </div>
 
-      {/* PAGE 4: Gallery */}
-      <div
-        ref={page4Ref}
-        className={`page ${currentPage === 4 ? "active" : ""}`}
-        style={{ visibility: currentPage === 4 ? "visible" : "hidden" }}
-      >
-        <button className="back-btn" onClick={() => goToPage(3)}>
-          ← Back
-        </button>
-        <Gallery isActive={currentPage === 4} />
-        <section className="final">
-          <h2 className="final-message">💖 Forever Yours — [Your Name] 💖</h2>
-          <p className="final-subtitle">Your personalized closing message ✨</p>
-        </section>
-      </div>
-
+      
       {/* Effects */}
       {showEffects && <Effects />}
     </div>
