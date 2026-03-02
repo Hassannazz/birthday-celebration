@@ -334,3 +334,6 @@
     gap: 3px;
   }
 }
+.gallery {
+  display : none !important;
+}
