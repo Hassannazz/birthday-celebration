@@ -19,7 +19,7 @@ function Countdown({ onBirthdayReached, birthdayReached }) {
     // 🎂 SET YOUR BIRTHDAY DATE & TIME HERE 🎂
     // ═══════════════════════════════════════════════════════════════
 
-    const targetDate = new Date("2026-03-02T14:00:00");
+    const targetDate = new Date(Date.UTC(2026, 2, 2, 19, 0, 0));
 
     // 📝 HOW TO USE:
     // Replace the date above with your actual birthday
