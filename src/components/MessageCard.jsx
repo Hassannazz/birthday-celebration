@@ -13,19 +13,15 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `Madam Minal,
 
-Your personalized birthday message goes here.
-
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
-
+Happy Birthday! May Allah blesses you with endless happiness, health, and success in everything you do. 
+May He guide your steps, protect you always, and turn every one of your beautiful dreams into reality.
+May Allah grants all the desires of your heart and fills your life with peace, joy, and prosperity. 
+Have a wonderful day!
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— From Sheikh Sahib Side`;
 
   // Handle page transitions
   useEffect(() => {
