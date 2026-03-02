@@ -105,7 +105,7 @@ function App() {
               </>
             )}
           </h1>
-          <p>Happy Birthday 💗</p>
+          <p> May Allah grants you a lifetime of reasons to smile 💗</p>
         </section>
 
         <Countdown
